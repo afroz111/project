@@ -1,0 +1,26 @@
+FlightManagemement System
+   
+   
+   Login&Registaration..
+   
+   
+  1. For Registration we use port [http://localhost:8087/user/reg]
+   {
+	"userName":"Mohammed Afroz",
+	"password":"Afroz123@",
+	"userPhone":9542785713,
+	"userEmail":"afrozmohammed@gmail.com"
+}
+
+
+2.  UserLogin   we use port [http://localhost:8087/userLogin/name/password]
+   The name and password should match with database contain name and password.
+   
+   
+   
+3.  AdminLogin   we use port [http://localhost:8087/adminlogin/name/password]
+  name=Afroz||Ashutosh, passowrd ==Afroz624@||Ashutosh123@
+  then login sucessfull or else fail.
+  
+  4.list of users  we use port is [http://localhost:8087/user/findall]  
+  to get all users...
